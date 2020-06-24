@@ -8,7 +8,7 @@ public interface UserService {
 	
 	public UserDto getUserDetails(Long userId);
 	
-	public int updateUser(UserDto userDto);
+	public UserDto updateUser(UserDto userDto);
 	
 	public void deleteUser(Long userId);
 }
